@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score</title>
+</head>
+<link rel="stylesheet" href="Style.css">
+<body><center>
+
+    <h1>SCORE BAC II</h1>
+    <form id="scoreForm">
+      <label for="math">Math:</label>
+      <input type="number" id="math" min="0" max="125"><br><br>
+
+      <label for="khmer">Khmer:</label>
+      <input type="number" id="khmer" max="75" min="0" required><br><br>
+
+      <label for="physics">Physics:</label>
+      <input type="number" id="physics" max="75" min="0" required><br><br>
+
+      <label for="chemistry">Chemistry:</label>
+      <input type="number" id="chemistry" max="75" min="0" required><br><br>
+
+      <label for="biology">Biology:</label>
+      <input type="number" id="biology" max="75" min="0" required><br><br>
+
+      <label for="history">History:</label>
+      <input type="number" id="history" max="50" min="0" required><br><br>
+
+      <label for="english">English:</label>
+      <input type="number" id="english" max="50" min="0" required><br><br>
+
+      <button type="button" onclick="submitScore()">Submit</button>
+      <p id="totalScore">TotalScore:</p>
+      <p id="Grade">Grade:</p>
+      
+    </form>
+  </center>
+    
+</body>
+<script src="index.js"></script>
+</html>
